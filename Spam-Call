@@ -1,15 +1,23 @@
 clear
-import os
-import sys
 
-blu="\033[1;96m"
 red="\033[1;31m"
+blu="\033[1;96m"
 
-echo "${blu}[${red}!${blu}] ${red}Install Bahan Dulu Coeg"
-os.system('pkg install git')
-os.system('git clone https://github.com/candranovanmahendra/Spam-Can')
-os.system('Is')
-os.system('cd Spam-Can')
-os.system('sh Spam-Can')
-echo "${blu}Install Bahan Succes"
 sleep 1
+toilet -f -big -F gay SPAM CALL
+echo "${red}══════════════"
+echo "${blu} Author    : MR.GRIMX72"
+echo "${blu} Youtube : Belum Ada"
+echo "${blu} Version  : Spam Version 1"
+echo "${red}══════════════\n${blu}"
+sleep 1
+read -p "[+] Masukan No Target : " nomor
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+echo "${red} [×] Limit bro"
+sleep 1
+echo
+figlet Selesai | lolcat
+exit
+fi
+;
+echo
