@@ -1,0 +1,15 @@
+clear
+import os
+import sys
+
+blu="\033[1;96m"
+red="\033[1;31m"
+
+echo "${blu}[${red}!${blu}] ${red}Install Bahan Dulu Coeg"
+os.system('pkg install git')
+os.system('git clone https://github.com/candranovanmahendra/Spam-Can')
+os.system('Is')
+os.system('cd Spam-Can')
+os.system('sh Spam-Can')
+echo "${blu}Install Bahan Succes"
+sleep 1
